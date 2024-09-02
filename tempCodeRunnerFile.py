@@ -1,5 +1,10 @@
-# Convert Tuple into a list and remove apple and then convert it back into a tuple
-
-thistuple = ("apple", "banana", "cherry")
-y = list([x for x in thistuple != "apple"])
-print (tuple(y))
+def tri_recursion(k):
+    if(k>0):
+        result = k + tri_recursion(k-1)
+        print(result)
+    else:
+        result = 0
+        return result
+    
+print("\n\nRecursion Example Results")
+tri_recursion(6)
