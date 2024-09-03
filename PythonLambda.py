@@ -46,7 +46,7 @@ print(mydoubler(11))
 mytripler = myfunc(3)
 
 print(mytripler(11))
-
+h
 # Or, use the same function definition to make both functions, in the same program:
 
 
